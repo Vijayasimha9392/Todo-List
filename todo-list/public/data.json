@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "title": "Learn React",
+      "description": "Learn React and its fundamentals.",
+      "completed": false,
+      "updated_at": "2024-07-24T12:34:56Z"
+    },
+    {
+      "id": 2,
+      "title": "Learn Next.js",
+      "description": "Understand the basics of Next.js and SSR.",
+      "completed": false,
+      "updated_at": "2024-07-24T12:35:56Z"
+    }
+  ]
+  

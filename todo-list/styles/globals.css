@@ -1,0 +1,78 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+input[type="text"].description-input {
+    width: 350px;
+}
+
+input[type="text"].search-bar {
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+button {
+    margin: 10px 5px;
+    padding: 8px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+div {
+    margin: 10px 0;
+}
+
+.task {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.task.completed h2 {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mark-done-button {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+
+}
+
+.mark-done-button:focus {
+    outline: none;
+}
+
+.completed-icon {
+    color: green;
+    margin-left: 30px;
+}
